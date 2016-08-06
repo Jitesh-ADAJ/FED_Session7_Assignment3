@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment3</title>
+</head>
+<body>
+	
+	<div id="div1"></div>
+	
+	<form >
+		
+		<input type="Text" id= "textname" onkeypress="uniCharCode(event)"><br/>
+
+	</form>
+
+
+
+	<script>
+		
+		
+				
+		 		function uniCharCode(event)
+			
+				{
+						var char = event.which;
+						var a2 = document.getElementById("textname");
+
+
+				if(char >= 48 && char <= 57){ }		 		
+		 		else
+		 		{
+		 			
+		 			a2.style.backgroundColor="red";
+
+		 		}
+
+
+		 	}
+
+
+	</script>
+		 		
+</body>
+</html>
